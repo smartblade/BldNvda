@@ -1,0 +1,9 @@
+image:
+- Visual Studio 2019
+platform: x86
+configuration: Release
+build:
+  project: nvda/nvda.sln
+artifacts:
+- path: nvda/**/*.dll
+  name: Python extension for NVDA controller
